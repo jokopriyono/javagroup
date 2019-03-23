@@ -1,0 +1,40 @@
+package com.javagroup.basic.operator;
+
+public class OperatorEquality {
+    public static void main(String[] args){
+
+        int value1 = 5;
+        int value2 = 5;
+        boolean hasil;
+
+        System.out.println("Sama dengan..");
+        hasil = value1 == value2;
+        System.out.println("Hasil 'value1 == value2' adalah " + hasil);
+        System.out.println();
+
+        System.out.println("Tidak sama dengan..");
+        hasil = value1 != value2;
+        System.out.println("Hasil 'value1 != value2' adalah " + hasil);
+        System.out.println();
+
+        System.out.println("Lebih besar dari..");
+        hasil = value1 > value2;
+        System.out.println("Hasil 'value1 > value2' adalah " + hasil);
+        System.out.println();
+
+        System.out.println("Sama atau lebih besar dari..");
+        hasil = value1 >= value2;
+        System.out.println("Hasil 'value1 >= value2' adalah " + hasil);
+        System.out.println();
+
+        System.out.println("Kurang dari..");
+        hasil = value1 < value2;
+        System.out.println("Hasil 'value1 < value2' adalah " + hasil);
+        System.out.println();
+
+        System.out.println("Sama atau kurang dari..");
+        hasil = value1 <= value2;
+        System.out.println("Hasil 'value1 <= value2' adalah " + hasil);
+        System.out.println();
+    }
+}
